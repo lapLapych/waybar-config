@@ -49,6 +49,7 @@ window#waybar {
 #tray,
 #memory,
 #window,
+#battery,
 #mpris {
   padding: 0.3rem 0.6rem;
   margin: 0.4rem 0.25rem;
@@ -92,6 +93,10 @@ window#waybar.empty #window {
 
 #window {
   color: #cdd6f4;
+}
+
+#battery {
+  color: #66bb6a;
 }
 
 #pulseaudio {
