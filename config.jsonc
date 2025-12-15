@@ -1,12 +1,11 @@
 {
   "layer": "bot",
   "position": "top",
-  "margin-top": 5,
-  "margin-bottom": -10,
-  "margin-left": 8,
-  "margin-right": 8,
-  "height": 30,
-  "spacing": 1,
+  "margin-top": 0,
+  "margin-bottom": 0,
+  "margin-left": 0,
+  "margin-right": 0,
+  "height": 10,
   "exclusive": true,
   "gtk-layer-shell": true,
   "passthrough": false,
@@ -48,15 +47,15 @@
       "7": "η",
       "8": "θ",
       "9": "λ",
-      "10": "π"
-    }
+      "10": "π",
+    },
   },
   "hyprland/window": {
     "format": "{title}",
   },
   "tray": {
     "show-passive-items": true,
-    "spacing": 10,
+    "spacing": 5,
   },
   "clock#simpleclock": {
     "tooltip": false,

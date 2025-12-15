@@ -9,16 +9,15 @@
 window#waybar {
   transition-property: background-color;
   transition-duration: 0.5s;
-  background-color: rgba(0, 0, 0, 0);
-  border-radius: 10px;
+  background-color: #3c3836;
 }
 
 #workspaces button {
   padding: 0.3rem 0.6rem;
   margin: 0.4rem 0.25rem;
-  border-radius: 6px;
   background-color: #3c3836;
   color: #eadbb2;
+  border-radius: 0;
 }
 
 #workspaces button:hover {
@@ -31,9 +30,8 @@ window#waybar {
   color: #a9ca24;
 }
 
-#workspaces button.urgent
-{
-    background-color: #cc241d;
+#workspaces button.urgent {
+  background-color: #cc241d;
 }
 
 #clock,
@@ -50,7 +48,6 @@ window#waybar {
 #mpris {
   padding: 0.3rem 0.6rem;
   margin: 0.4rem 0.25rem;
-  border-radius: 6px;
   background-color: #3c3836;
 }
 
@@ -63,7 +60,6 @@ window#waybar {
 }
 
 #custom-sep {
-  padding: 0px;
   color: #585b70;
 }
 
@@ -113,5 +109,4 @@ window#waybar.empty #window {
 
 tooltip {
   background-color: #181825;
-  border: 2px solid #89b4fa;
 }
